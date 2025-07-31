@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Job Offer Comparison Tool</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Job Offer Comparison Tool</h1>
+
+    <div class="offers">
+      <div class="offer">
+        <h2>Offer A</h2>
+        <input type="text" id="jobA" placeholder="Job Title" />
+        <input type="number" id="salaryA" placeholder="Salary ($)" />
+        <input type="number" id="bonusA" placeholder="Bonus ($)" />
+        <input type="number" id="ptoA" placeholder="PTO Days" />
+        <select id="remoteA">
+          <option value="">Remote?</option>
+          <option value="Yes">Yes</option>
+          <option value="Hybrid">Hybrid</option>
+          <option value="No">No</option>
+        </select>
+      </div>
+
+      <div class="offer">
+        <h2>Offer B</h2>
+        <input type="text" id="jobB" placeholder="Job Title" />
+        <input type="number" id="salaryB" placeholder="Salary ($)" />
+        <input type="number" id="bonusB" placeholder="Bonus ($)" />
+        <input type="number" id="ptoB" placeholder="PTO Days" />
+        <select id="remoteB">
+          <option value="">Remote?</option>
+          <option value="Yes">Yes</option>
+          <option value="Hybrid">Hybrid</option>
+          <option value="No">No</option>
+        </select>
+      </div>
+    </div>
+
+    <button id="compareBtn">Compare Offers</button>
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+</body>
+
+</body>
+</html>
